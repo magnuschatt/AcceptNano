@@ -1,0 +1,27 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+body {
+    background-color:rgb(41,58,76);
+}
+
+textarea {
+    border-radius: 1rem;
+    resize: none;
+    height: 5rem;
+    width: 15rem;
+    overflow: auto;
+    overflow: hidden;
+    text-align: center;
+    border: 0px;
+    outline: 0px;
+    padding: 1rem;
+    background-color: rgb(30,44,61);
+    color: rgb(146,152,157);
+}
